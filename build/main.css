@@ -1,0 +1,44 @@
+/* general */
+
+body {
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+/*navigation*/
+
+.navbar {
+  padding: 0 100px;
+}
+.navHeader {
+  padding: 20px 0;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+/*create user*/
+
+.container {
+  margin: 20px;
+}
+
+.btn {
+  margin: 10px 0;
+}
+
+/*create Note*/
+.notas{
+  padding: 20px 0;
+}
+
+.form-group{
+  
+  padding: 5px 0;
+}
+
+/* note list*/
+.card-blue {
+  background-color: #8EC2FA;
+}
