@@ -28,7 +28,7 @@ export default class CreateUser extends Component {
 
   onSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("https://james-tarea-note.herokuapp.com//api/users", {
+    await axios.post("https://james-tarea-note.herokuapp.com/api/users", {
       username: this.state.username,
     });
     this.setState({ username: "" });
