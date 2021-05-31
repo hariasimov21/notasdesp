@@ -16,12 +16,18 @@ export default class Navigation extends Component {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="navHeader">
-          <Nav.Link className="nav-link" href="/create">
+          <Nav.Link
+            className="nav-link"
+            href="https://optimistic-tesla-a9a87c.netlify.app//create"
+          >
             Crear Nota
           </Nav.Link>
         </Nav.Item>
         <Nav.Item className="navHeader">
-          <Nav.Link className="nav-link" href="/user">
+          <Nav.Link
+            className="nav-link"
+            href="https://optimistic-tesla-a9a87c.netlify.app//user"
+          >
             Crear Usuario
           </Nav.Link>
         </Nav.Item>
